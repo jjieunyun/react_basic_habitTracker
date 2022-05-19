@@ -1,0 +1,96 @@
+* {
+  box-sizing: border-box;
+}
+
+button {
+  outline : none;
+  border: 0;
+  cursor: pointer;
+}
+
+.navbar {
+  font-size: 2rem;
+  padding: 1em;
+  background-color: #d7f2e7;
+}
+
+.navbar-logo {
+  color: darkslateblue;
+  margin-right: 0.5em;
+}
+
+.navbar-count {
+  display: inline-block;
+  text-align: center;
+  font-size: 2rem;
+  width: 2.5rem;
+  height: 2.5rem;
+  line-height: 2.5rem;
+  margin-left: 0.2em;
+  background-color:darksalmon;
+  color: white;
+  border-radius: 50%;
+
+}
+
+.add-input {
+  font-size: 2rem;
+  margin-right: 0.2em;
+}
+
+.add-button {
+  height: 100%;
+  font-size: 1.5rem;
+  padding: 0.3rem 0.5rem;
+  background-color: darksalmon;
+  color: white;
+}
+
+
+.habit {
+  font-size: 2.5rem;
+  padding: 0.5em;
+  list-style: none;
+}
+
+.habit-count {
+  display: inline-block;
+  text-align: center;
+  font-size: 2rem;
+  width: 2.5rem;
+  height: 2.5rem;
+  line-height: 2.5rem;
+  margin-left: 0.2em;
+  margin-right: 0.5em;
+  background-color: #F2D7BF;
+  color: white;
+  border-radius: 50%;
+}
+
+.habit-button {
+  font-size: 2.5rem;
+  margin: 0 0.1em;
+  background-color: transparent;
+}
+
+.habit-button:hover {
+  opacity: 0.8;
+
+}
+
+.habit-increase, 
+.habit-decrease {
+  color:#CBECF2;
+}
+
+.habit-delete {
+  font-size: 2rem;
+  color: darkslateblue;
+}
+
+.habits-reset {
+  font-size: 1.5rem;
+  padding: 0.2em 1em;
+  background-color: darksalmon;
+  color: white;
+}
